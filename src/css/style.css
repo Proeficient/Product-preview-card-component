@@ -1,0 +1,223 @@
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(242, 234,226);
+    font-family: "Montserrat";
+    box-sizing: border-box;
+}
+
+.card{
+    background-color: white;
+    width: 605px;
+    display: flex;
+    height: 457px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(28, 35, 43, .2);
+
+}
+
+.imagem img{
+    width: 305px;
+    border-radius: 10px 0 0 10px;
+}
+
+.conteudo{
+    padding: 35px 30px;
+}
+
+.perfume{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 0.9em;
+}
+
+.titulo{
+    font-family: "Fraunces";
+    font-size: 2.3em;
+    line-height: 33px;
+}
+
+.texto-principal{
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.lista-precos{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.preco-principal{
+    font-size: 2.4em;
+    font-family: "Fraunces";
+    margin-right: 20px;
+}
+
+.preco-secundario{
+    text-decoration: line-through;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(60, 128,103);
+    text-decoration: none;
+}
+
+.botao:hover{
+    background-color: rgb(27, 58, 47);
+}
+
+.conteudo-botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.texto-botao{
+    text-decoration: none;
+    color: white;
+}
+
+.icone{
+    margin-right: 10px;
+}
+
+
+
+.verde{
+    color: rgb(60, 128,103);
+}
+
+.cinza{
+    color: rgb(107, 113, 137);
+}
+
+footer{
+    margin-top: 50px;
+}
+
+@media(min-width:270px) and (max-width:620px){
+    
+    body{
+        min-height: 100vh;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(242, 234,226);
+        font-family: "Montserrat";
+        box-sizing: border-box;
+    }
+
+    .card{
+        background-color: white;
+        width: 345px;
+        height: 665px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px rgba(28, 35, 43, .2);
+    
+    }
+
+    .imagem img{
+
+        width: 345px;
+        height: 265px;
+        object-fit: cover;
+        
+        border-radius: 10px 10px 0 0px;
+    }
+
+    .conteudo{
+        padding: 20px 25px;
+    }
+
+    .perfume{
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-size: 0.9em;
+    }
+
+    .titulo{
+        font-family: "Fraunces";
+        font-size: 2.3em;
+        line-height: 33px;
+    }
+
+    .texto-principal{
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+
+    .lista-precos{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .preco-principal{
+        font-size: 2.4em;
+        font-family: "Fraunces";
+        margin-right: 20px;
+    }
+
+    .preco-secundario{
+        text-decoration: line-through;
+    }
+    
+    .botao{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: rgb(60, 128,103);
+        text-decoration: none;
+    }
+
+    .botao:hover{
+        background-color: rgb(27, 58, 47);
+    }
+
+    .conteudo-botao{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .texto-botao{
+        text-decoration: none;
+        color: white;
+    }
+
+    .icone{
+        margin-right: 10px;
+    }
+
+    .verde{
+        color: rgb(60, 128,103);
+    }
+    
+    .cinza{
+        color: rgb(107, 113, 137);
+    }
+    
+    footer{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+}
